@@ -5,17 +5,17 @@
   font-family: "Arial", sans-serif;
 }
 
-body {
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-footer {
-  margin-top: auto;
-  margin-bottom: 40px;
+span {
+  display: flex;
+  margin-right: auto;
+  margin-left: 8px;
 }
 
-.redText {
-  color: red;
+header nav {
+  margin-right: 8px;
 }
